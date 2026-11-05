@@ -34,16 +34,16 @@
 `Core/Inc/fan.h`:
 
 ```c
-#define FAN_PERIOD_MS  (60u * 60u * 1000u)  // fan turns on every hour
-#define FAN_ON_MS      (15u * 60u * 1000u)  // and runs for 15 minutes
+#define FAN_PERIOD_MS (60u * 60u * 1000u) // fan turns on every hour
+#define FAN_ON_MS  (15u * 60u * 1000u) // and runs for 15 minutes
 ```
 
 ## Структура коду
 
 | Файл | Вміст |
 |---|---|
-| `Core/Inc/fan.h` | макроси розкладу, оголошення функцій |
-| `Core/Src/fan.c` | запуск таймера, лог, LED |
+| `Core/Inc/Fan.h` | макроси розкладу, оголошення функцій |
+| `Core/Src/Fan.c` | запуск таймера, лог, LED |
 | `Core/Src/main.c` | ініціалізація, запуск `fanStart(&htim2)`, watchdog, callback-и таймера (блоки `USER CODE`) |
 
 ## Запуск
