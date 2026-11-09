@@ -1,0 +1,3 @@
+../Core/Src/Fan.c:10:6:fanStart	16	static
+../Core/Src/Fan.c:27:6:onFanTurnedOn	8	static
+../Core/Src/Fan.c:34:6:onFanTurnedOff	8	static
